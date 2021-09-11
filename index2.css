@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ffd1c3;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #000000;
+  padding: 20px 5%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  padding-right: 5px;
+  width: 3%;
+  height: 3%;
+  cursor: pointer;
+}
+
+.header h1 {
+  color: #ffd1c2;
+  font-size: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+nav {
+  text-align: right;
+  flex: 2;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  justify-content: flex-end;
+}
+.nav_links li a {
+  padding: 0px 20px;
+  cursor: pointer;
+  color: #ffd0c4;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  color: #f67e7d;
+}
+.content {
+  padding: 100px 5% 0px;
+  position: absolute;
+  display: flex;
+}
+
+.media {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.media:hover {
+  transform: scale(1.05);
+}
+img.pic1 {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.hero {
+  width: 50%;
+  height: 100%;
+  padding-left: 30px;
+}
+
+.hero h1 {
+  color: #000;
+}
+.hero p {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000;
+}
+
+.irene {
+  color: #ea517f;
+}
+.seulgi {
+  color: #ef9a01;
+}
+
+.wendy {
+  color: #26348c;
+}
+
+.joy {
+  color: #00943c;
+}
+
+.yeri {
+  color: #5b2e89;
+}
+.media audio {
+  padding-top: 10px;
+  background-color: #ffd1c3;
+}
